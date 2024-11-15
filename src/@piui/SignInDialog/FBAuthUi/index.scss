@@ -1,0 +1,25 @@
+#firebaseui_container {
+  .firebaseui-container {
+    max-width: none !important;
+    .firebaseui-card-content, .firebaseui-card-footer {
+      padding: 0 !important;
+      .firebaseui-idp-button {
+        max-width: none !important;
+      }
+    }
+  }
+}
+
+.firebaseui-idp-google {
+  border: solid 1px rgba(0,0,0,0.87) !important;
+  border-radius: 4px !important;
+  background-color: rgba(0,0,0,0) !important;
+
+  .firebaseui-idp-text { color: #333 !important; }
+}
+.firebaseui-idp-list, .firebaseui-list-item {
+  margin-bottom: 0 !important;
+}
+.mdl-button--raised {
+  box-shadow: none !important;
+}

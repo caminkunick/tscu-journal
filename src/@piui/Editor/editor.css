@@ -1,0 +1,15 @@
+.rdw-editor-wrapper {
+  border: solid 1px rgba(0,0,0,0.25);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.rdw-editor-toolbar {
+  margin-bottom: 0;
+  border: none;
+  border-bottom: solid 1px rgba(0,0,0,0.25);
+}
+.draft-editor {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
